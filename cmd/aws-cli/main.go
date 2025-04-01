@@ -7,15 +7,10 @@ import (
 	"log"
 
 	"github.com/aws/aws-sdk-go-v2/config"
+	"github.com/rizkiamr/go-aws-cli/internal/model"
 
 	"github.com/aws/aws-sdk-go-v2/service/sts"
 )
-
-type GetCallerIdentityResponse struct {
-	UserId  string `json:"UserId"`
-	Account string `json:"Account"`
-	Arn     string `json:"Arn"`
-}
 
 func main() {
 	// todo: detect and parse Web Identity Token / IRSA
@@ -36,7 +31,7 @@ func main() {
 		log.Fatalf("failed to call get-caller-identity: %v", err)
 	}
 
-	cliResp := &GetCallerIdentityResponse{
+	cliResp := &model.GetCallerIdentityResponse{
 		UserId:  *awsResp.UserId,
 		Account: *awsResp.Account,
 		Arn:     *awsResp.Arn,
