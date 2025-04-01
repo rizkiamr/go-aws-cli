@@ -1,4 +1,4 @@
-module github.com/rizkiamr/go-sts-get-caller-identity
+module github.com/rizkiamr/go-aws-cli
 
 go 1.24.1
 

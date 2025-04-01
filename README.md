@@ -1,11 +1,17 @@
-# go-sts-get-caller-identity
+# go-aws-cli
 
-> `aws sts get-caller-identity` clone in Go-based CLI program
+> `aws-cli` clone in Go
 
 ## How to Use This Program
 
 ```
+# export AWS credentials
+# - AWS_ACCESS_KEY_ID
+# - AWS_SECRET_ACCESS_KEY
+# - AWS_SESSION_TOKEN (optional)
+# - AWS_DEFAULT_REGION (optional)
 # run: go run main.go
+
 $ make run
 ```
 
