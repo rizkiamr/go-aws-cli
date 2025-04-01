@@ -1,4 +1,7 @@
 run:
 	go run main.go
 
-.PHONY: run
+build:
+	go build -o ./build/app main.go
+
+.PHONY: run build
