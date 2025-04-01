@@ -1,6 +1,9 @@
 # go-aws-cli
 
-> `aws-cli` clone in Go
+> `aws-cli` clone in Go, this is a toy project, DO NOT USE IN PRODUCTION
+
+## Supported Commands
+- `aws sts get-caller-identity`: `app`
 
 ## How to Use This Program
 
