@@ -4,6 +4,7 @@
 
 ## Supported Commands
 - `go-aws-cli sts get-caller-identity`
+- `go-aws-cli iam simulate-principal-policy (todo)`
 
 ## How to Use This Program
 

@@ -3,6 +3,7 @@ package cmd
 import (
 	"os"
 
+	"github.com/rizkiamr/go-aws-cli/internal/cmd/iam"
 	"github.com/rizkiamr/go-aws-cli/internal/cmd/sts"
 	"github.com/spf13/cobra"
 )
@@ -23,4 +24,5 @@ func Execute() {
 
 func init() {
 	rootCmd.AddCommand(sts.STSCmd)
+	rootCmd.AddCommand(iam.IAMCmd)
 }
