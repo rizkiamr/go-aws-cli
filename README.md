@@ -3,7 +3,7 @@
 > `aws-cli` clone in Go, this is a toy project, DO NOT USE IN PRODUCTION
 
 ## Supported Commands
-- `aws sts get-caller-identity`: `aws-cli sts get-caller-identity`
+- `aws-cli sts get-caller-identity`
 
 ## How to Use This Program
 
