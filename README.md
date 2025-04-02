@@ -3,7 +3,7 @@
 > `aws-cli` clone in Go, this is a toy project, DO NOT USE IN PRODUCTION
 
 ## Supported Commands
-- `aws-cli sts get-caller-identity`
+- `go-aws-cli sts get-caller-identity`
 
 ## How to Use This Program
 
@@ -15,7 +15,7 @@
 # - AWS_DEFAULT_REGION (optional)
 
 $ make build
-$ ./build/aws-cli <command> <subcommand> [parameters]
+$ ./build/go-aws-cli <command> <subcommand> [parameters]
 ```
 
 ## Dependencies

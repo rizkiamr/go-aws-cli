@@ -8,8 +8,8 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "aws-cli",
-	Short: "aws-cli - aws-cli clone in Go",
+	Use:   "go-aws-cli",
+	Short: "go-aws-cli - aws-cli clone in Go",
 	Long: `aws-cli clone in Go.
 THIS IS A TOY PROJECT, DO NOT USE IN PRODUCTION`,
 }

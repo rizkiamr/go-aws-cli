@@ -1,7 +1,7 @@
 run:
-	go run cmd/aws-cli/main.go
+	go run cmd/go-aws-cli/main.go
 
 build:
-	go build -o ./build/aws-cli cmd/aws-cli/main.go
+	go build -o ./build/go-aws-cli cmd/go-aws-cli/main.go
 
 .PHONY: run build
