@@ -21,5 +21,5 @@ $ ./build/aws-cli <command> <subcommand> [parameters]
 ## Dependencies
 
 - [AWS SDK for Go v2](https://github.com/aws/aws-sdk-go-v2)
-- [Cobra](https://github.com/spf13/cobra)
+- [spf13/cobra](https://github.com/spf13/cobra)
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
